@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Evaluación, divulgación e implementación de recursos educativos digitales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> validar la apropiación de conceptos sobre evaluación técnica y pedagógica, usabilidad, accesibilidad, repositorios, metadatos, publicación, divulgación, implementación didáctica, transferencia del conocimiento y valoración del impacto pedagógico.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,61 +30,66 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de evaluar un recurso educativo digital antes de implementarlo?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Verificar que responda al propósito pedagógico y funcione adecuadamente en los entornos de uso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Elegir únicamente los colores y elementos decorativos que tendrá la interfaz.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir los resultados de aprendizaje por funcionalidades tecnológicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Publicarlo de inmediato sin realizar comprobaciones previas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué aspectos se comprueban principalmente durante la evaluación técnica de un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La popularidad del recurso entre comunidades externas.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'El funcionamiento de enlaces, tiempos de carga, visualización y adaptación a diferentes dispositivos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'La cantidad de autores que participaron en su elaboración.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'El número de actividades presenciales que acompaña al recurso.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +98,34 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué describe mejor la usabilidad de un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'La posibilidad de almacenar el recurso durante largos periodos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'El conjunto de datos utilizados para identificar al autor.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'La facilidad, eficiencia y satisfacción con la que una persona utiliza el recurso.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'La difusión del recurso en redes y comunidades educativas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -125,29 +134,33 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál práctica favorece directamente la accesibilidad de un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Utilizar únicamente archivos de gran tamaño para mejorar la calidad visual.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Limitar la consulta del recurso a un solo tipo de dispositivo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Eliminar los apoyos textuales cuando exista contenido audiovisual.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Incorporar contraste adecuado, textos alternativos y subtítulos para facilitar el acceso.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +168,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Para qué se utilizan los metadatos en la gestión de un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Para definir automáticamente la metodología activa de una secuencia didáctica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Para reemplazar el contenido pedagógico por información administrativa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto:
+                'Para describirlo mediante datos como título, autor, palabras clave, fecha, licencia y descripción, facilitando su recuperación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Para medir exclusivamente la satisfacción de los aprendices.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +204,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué función cumplen las bibliotecas digitales dentro de la gestión de recursos educativos?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto:
+                'Convertir cualquier material en un recurso de dominio público.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Facilitar el acceso organizado a colecciones de recursos y documentos en formato digital.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Sustituir los repositorios institucionales en todos los contextos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Definir los indicadores de impacto de una propuesta didáctica.',
               esCorrecta: false,
             },
           ],
@@ -218,29 +238,31 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál función caracteriza a los repositorios digitales?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Asignar automáticamente licencias abiertas a los materiales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Seleccionar la metodología activa más adecuada para cada grupo.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Almacenar, organizar, preservar y difundir materiales académicos y educativos.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Reemplazar las pruebas de funcionamiento del recurso.',
               esCorrecta: false,
             },
           ],
@@ -250,28 +272,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué relación existe entre publicación y alojamiento de un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'La publicación pone a disposición la versión definitiva y el alojamiento debe proporcionar un acceso estable para su consulta.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La publicación evalúa la usabilidad y el alojamiento selecciona los instrumentos de seguimiento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La publicación organiza los metadatos y el alojamiento reemplaza la divulgación colaborativa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La publicación determina la población objetivo y el alojamiento define los resultados de aprendizaje.',
               esCorrecta: false,
             },
           ],
@@ -281,19 +307,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué acción favorece la divulgación colaborativa de un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Socializarlo en redes de docentes, comunidades académicas, foros y plataformas colaborativas para promover reutilización y retroalimentación.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Mantener el enlace restringido exclusivamente al equipo que produjo el recurso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar los espacios de interacción para evitar comentarios de otros usuarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Conservarlo únicamente en el dispositivo personal del instructor.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +342,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'En el ciclo final del recurso educativo digital, ¿qué se verifica en la etapa Evaluar?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Metadatos, políticas del repositorio y permisos de publicación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Usabilidad, accesibilidad y funcionamiento técnico del recurso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Metodología activa, secuencia didáctica y población objetivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Desempeño, satisfacción y oportunidades de mejora después de la aplicación.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +377,32 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es el resultado esperado de la etapa Almacenar dentro del ciclo final del recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Un recurso difundido únicamente mediante redes sociales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Una secuencia didáctica organizada en apertura, desarrollo y cierre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un recurso organizado y preservado mediante catalogación y uso de repositorios.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Una metodología activa seleccionada para una situación formativa.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,19 +411,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué resultado corresponde a la etapa Divulgar del ciclo final del recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Un recurso con la población objetivo caracterizada.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Un material con los resultados de aprendizaje reformulados.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un recurso almacenado sin posibilidad de consulta externa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un recurso visible y accesible mediante enlaces y socialización en comunidades educativas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -365,18 +445,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué buscan promover las metodologías activas mediadas por TIC?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'La participación dinámica del aprendiz en la construcción de su conocimiento.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La dependencia exclusiva del instructor para resolver todas las actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La reducción del proceso formativo a la exposición de contenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La utilización de una misma estrategia sin considerar el contexto.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +480,31 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál conjunto corresponde a metodologías activas mencionadas en el componente?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Conferencia magistral, dictado y memorización repetitiva.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Aprendizaje basado en proyectos, aula invertida y gamificación.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Catalogación, metadatos y preservación documental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Contraste, subtítulos y textos alternativos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -407,100 +513,208 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuáles son los tres momentos recomendados para organizar una secuencia didáctica?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Diagnóstico, publicación y divulgación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Caracterización, almacenamiento y transferencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Apertura, desarrollo y cierre.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Diseño, alojamiento y preservación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+        {
+          id: 16,
+          texto:
+            '¿Qué significa transferir el conocimiento en el contexto de este componente?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Guardar el recurso en un repositorio sin utilizarlo en actividades formativas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Compartir únicamente el enlace del recurso con otros instructores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Cambiar la metodología después de finalizar la evaluación del impacto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Aplicar lo aprendido en situaciones reales o simuladas del entorno social o productivo.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué debe definirse para aplicar un recurso educativo digital?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Modalidad, entorno, población, necesidades, infraestructura y recursos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Solo el nombre del recurso y la herramienta de diseño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Únicamente el número de participantes y la duración.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Exclusivamente el repositorio y la licencia del material.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué aspectos permiten valorar el impacto pedagógico?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Colores de interfaz, tamaño del archivo y cantidad de imágenes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Desempeño, apropiación, transferencia, usabilidad, satisfacción y mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Número de plataformas y velocidad del equipo del instructor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cantidad de enlaces externos incluidos en el recurso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'En la ruta didáctica, ¿qué corresponde a la etapa Caracterizar?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Definir indicadores de impacto e instrumentos de seguimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Elegir una metodología activa y justificar la selección.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Analizar el contexto, identificar necesidades y reconocer recursos disponibles.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Diseñar la apertura, el desarrollo y el cierre de la secuencia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: 'En la ruta didáctica, ¿qué corresponde a la etapa Definir?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Publicar enlaces y socializar el recurso en comunidades educativas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Caracterizar la población y reconocer los recursos disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Estructurar la secuencia mediante apertura, desarrollo y cierre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Establecer criterios de calidad, indicadores de impacto e instrumentos de seguimiento.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
