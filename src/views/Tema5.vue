@@ -131,40 +131,202 @@
           img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
           h3.bg2.py-1.w-card-text.text-white Participantes en la transferencia del conocimiento
 
+    .row.justify-content-center.mb-4(data-aos="flip-up")  
+      .col-lg-4.col-md-6.mb-2
+        .overflow-hidden.h-100.cambiartarjeta.p-2(data-aos="fade-left")
+          .row.justify-content-center.mb-0
+            .col-5
+              figure
+                img.img-a.img-t.mb-3(src='@/assets/curso/temas/t5/1.png', alt='')
+          .px-3
+            h4 Instructor
+            p Orienta la experiencia, plantea situaciones de aplicación, acompaña el desarrollo de las actividades y ofrece retroalimentación sobre el desempeño observado.
+        
+      .col-lg-4.col-md-6.mb-2
+        .overflow-hidden.h-100.cambiartarjeta.p-2(data-aos="fade-left")
+          .row.justify-content-center.mb-0
+            .col-5
+              figure
+                img.img-a.img-t.mb-3(src='@/assets/curso/temas/t5/1.png', alt='')
+          .px-3
+            h4 Aprendiz
+            p Analiza las situaciones propuestas, utiliza los conocimientos adquiridos, desarrolla las evidencias y reflexiona sobre los resultados de sus decisiones.
 
+      .col-lg-4.col-md-6.mb-2
+        .overflow-hidden.h-100.cambiartarjeta.p-2(data-aos="fade-left")
+          .row.justify-content-center.mb-0
+            .col-5
+              figure
+                img.img-a.img-t.mb-3(src='@/assets/curso/temas/t5/1.png', alt='')
+          .px-3
+            h4 Equipo de formación
+            p Cuando la actividad lo requiere, contribuye a coordinar recursos, resolver necesidades de apoyo y compartir observaciones que permitan mejorar la implementación.
+         
+    p La articulación de estas responsabilidades facilita el desarrollo de experiencias en las que la tecnología cumple una función pedagógica. Además, permite reconocer que la transferencia del conocimiento depende tanto de las oportunidades de aplicación como de las condiciones de acompañamiento y participación.
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
+          h3.bg2.py-1.w-card-text.text-white Valoración del impacto pedagógico
 
+    .row.justify-content-center.mb-0(data-aos="zoom-in-left")
+      .col-lg-7.mb-3
+        .row.justify-content-center
+          .col-lg-2.mb-3.col-4.col-md-3
+            img(src="@/assets/curso/temas/t5/img02.svg")
+          .col-lg-10
+            p La propuesta debe contemplar indicadores y evidencias que permitan valorar si el recurso contribuyó al aprendizaje y a la solución de la necesidad identificada. La valoración puede considerar el desempeño, la apropiación del conocimiento, la transferencia, la usabilidad, la satisfacción y las oportunidades de mejora.
+        p La valoración del impacto pedagógico consiste en analizar los resultados obtenidos durante la implementación y establecer en qué medida responden a los propósitos formativos definidos. Para desarrollar este análisis, es necesario contar con criterios claros, evidencias verificables e instrumentos de seguimiento apropiados.
+        p Un aspecto fundamental es distinguir entre los datos de utilización del recurso y las evidencias de aprendizaje. La cantidad de accesos, el tiempo de navegación o la frecuencia de participación pueden informar sobre las condiciones de uso, pero no permiten demostrar, por sí solos, que los aprendices hayan desarrollado las competencias previstas.
+      .col-lg-5.p-0.col-10.col-md-8
+        img(src="@/assets/curso/temas/t5/img12.png")
+    p Por esta razón, la valoración debe incluir evidencias relacionadas con los desempeños esperados, como la resolución de casos, la aplicación de procedimientos, la elaboración de productos o la explicación fundamentada de decisiones.
 
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+      .col-lg-9.mb-3
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 4.
+          span Indicadores y evidencias para valorar la implementación de recursos educativos digitales
 
+        .tabla-a.color-acento-contenido.mb-0
+          table(style="table-layout: fixed; width:100%;")
+            thead
+              tr
+                th.bg3.text-izq.w-25 Aspecto de valoración
+                th.bg3.text-izq Indicador orientativo
+                th.bg3.text-izq Evidencia o instrumento
+            tbody
+              tr
+                td.text-izq Logro del aprendizaje
+                td.text-izq Nivel de cumplimiento de los criterios establecidos para la actividad.
+                td.text-izq Rúbrica o lista de chequeo aplicada al producto o desempeño.
+              tr
+                td.text-izq Aplicación del conocimiento
+                td.text-izq Capacidad para utilizar lo aprendido en una situación diferente.
+                td.text-izq Resolución de un caso o desarrollo de una actividad práctica.
+              tr
+                td.text-izq Participación
+                td.text-izq Cumplimiento de las actividades y formas de interacción previstas.
+                td.text-izq Registro de participación y seguimiento de actividades.
+              tr
+                td.text-izq Usabilidad en contexto
+                td.text-izq Dificultades encontradas durante la utilización del recurso.
+                td.text-izq Observación de la actividad y registro de incidencias.
+              tr
+                td.text-izq Percepción de los aprendices
+                td.text-izq Valoración de la claridad, utilidad y facilidad de uso del recurso.
+                td.text-izq Encuesta breve o preguntas de retroalimentación.
+              tr
+                td.text-izq Mejoramiento del recurso
+                td.text-izq Ajustes identificados a partir de los resultados obtenidos.
+                td.text-izq Informe de hallazgos y plan de mejora.
+      .col-lg-3.p-3.col-8.col-md-5
+        img(src='@/assets/curso/temas/t5/img13.png', alt='')
+    p Los indicadores deben formularse de manera que permitan observar o medir los resultados esperados. Para ello, es necesario establecer criterios claros y, cuando corresponda, niveles de desempeño que faciliten interpretar las evidencias obtenidas. Estos criterios deben guardar relación con los resultados de aprendizaje y comunicarse oportunamente a los participantes.
+    
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
+          h3.bg2.py-1.w-card-text.text-white Interpretación de resultados y evidencias
 
+    .row.justify-content-center.mb-0(data-aos="zoom-in-left")
+      .col-lg-3.mb-3.p-2
+        img(src="@/assets/curso/temas/t5/img14.png")
+      .col-lg-9 
+        .row.justify-content-center.mb-3.bg4.g-0
+          .col-lg-7
+            .row.mb-0.p-4
+              .col-lg-12
+                p.text-white La recopilación de información representa una etapa inicial de la valoración. Para convertir los datos en información útil, es necesario analizarlos en relación con los objetivos establecidos y las condiciones bajo las cuales se desarrolló la actividad.
+                p.text-white.mb-0 Por ejemplo, si varios aprendices presentan dificultades para completar una práctica digital, el instructor debe examinar si estas se relacionan con la comprensión de los contenidos, la claridad de las instrucciones, el funcionamiento del recurso o las condiciones de acceso. Esta distinción evita atribuir automáticamente los resultados a una sola causa.
+          .col-lg-5.p-0
+            img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t5/img15.svg', alt='')
+    p Cuando se dispone de evidencias iniciales y finales, su comparación puede aportar información sobre los avances observados. Sin embargo, los cambios en el desempeño no deben atribuirse exclusivamente al recurso digital, ya que también intervienen el acompañamiento del instructor, los conocimientos previos y otras condiciones del proceso formativo.
 
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 La interpretación de resultados permite fundamentar decisiones relacionadas con la continuidad, modificación o sustitución de una herramienta. También contribuye a identificar prácticas que pueden aprovecharse en nuevas experiencias educativas.
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
+          h3.bg2.py-1.w-card-text.text-white Decisiones a partir de los resultados de evaluación
 
+    .row.mb-4.text-white.justify-content-center(data-aos="zoom-in-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          h4.text-center Mantener
+          p.mb-0.text-center Conservar las características del recurso que demostraron ser pertinentes para la actividad y facilitaron el desarrollo de los aprendizajes previstos.
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          h4.text-center Ajustar
+          p.mb-0.text-center Modificar instrucciones, actividades o elementos de interacción cuando se identifiquen dificultades que puedan resolverse mediante mejoras específicas.
 
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          h4.text-center Complementar
+          p.mb-0.text-center Incorporar orientaciones, materiales de apoyo o alternativas de participación cuando el recurso resulte insuficiente para determinadas necesidades formativas.
 
+    .row.text-white.justify-content-center.mb-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          h4.text-center Sustituir
+          p.mb-0.text-center Seleccionar otra herramienta cuando las limitaciones pedagógicas, técnicas o de accesibilidad impidan cumplir el propósito de la actividad.
 
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4.h-100
+          h4.text-center Documentar
+          p.mb-0.text-center Registrar las decisiones adoptadas, los cambios realizados y los resultados obtenidos para orientar nuevas implementaciones.
 
+    p La planificación de la implementación debe mantener una relación coherente entre las decisiones pedagógicas, las condiciones del ambiente de formación y los mecanismos de seguimiento. La siguiente infografía presenta una ruta que facilita la organización de este proceso.
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
+          h3.bg2.py-1.w-card-text.text-white Ruta de la propuesta de implementación didáctica
 
+    p De la caracterización del contexto a la evaluación del impacto.
 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12
+        img(src='@/assets/curso/temas/t5/img16.svg', alt='')
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
+          h3.bg2.py-1.w-card-text.text-white Mejoramiento continuo de los recursos educativos digitales
 
+    .bloque-texto-g.bg4.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/temas/t5/img16.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La valoración de una experiencia formativa debe conducir a decisiones que permitan mantener la pertinencia y calidad del recurso. Para ello, los resultados del seguimiento pueden utilizarse como fundamento para establecer acciones de mejora relacionadas con las dificultades y necesidades identificadas.
+          br
+          br
+          | Para priorizar las mejoras, conviene considerar la gravedad de los hallazgos, su efecto sobre el aprendizaje y los recursos disponibles para atenderlos. Esta valoración permite establecer cuáles situaciones requieren intervención inmediata y cuáles pueden incorporarse a una programación posterior de ajustes.
 
+    .row.justify-content-center.mb-0(data-aos="zoom-in-left")
+      .col-lg-7.mb-3
+        .row.justify-content-center
+          .col-lg-2.mb-3.col-4.col-md-3
+            img(src="@/assets/curso/temas/t5/img18.svg")
+          .col-lg-10
+            p Cuando se realizan modificaciones, es importante comprobar que los cambios no afecten otras funciones del material y que continúen respondiendo al propósito pedagógico. También conviene mantener un registro de las versiones y de las decisiones adoptadas, de manera que las mejoras puedan reconocerse y recuperarse durante nuevas implementaciones.
+        p La información derivada de la evaluación puede compartirse con otros integrantes del equipo de formación para fortalecer las prácticas institucionales. Las experiencias documentadas permiten identificar dificultades recurrentes, reconocer alternativas efectivas y orientar la utilización de recursos digitales en contextos semejantes.
+      .col-lg-5.p-0.col-10.col-md-8
+        img(src="@/assets/curso/temas/t5/img17.png")
+      p El mejoramiento continuo contribuye a que los recursos educativos digitales mantengan su utilidad frente a cambios en las necesidades de los aprendices, los ambientes de formación y las posibilidades tecnológicas. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
+          h3.bg2.py-1.w-card-text.text-white Diseño y evaluación de una experiencia piloto
 
 
 
