@@ -38,7 +38,7 @@
         img(src='@/assets/curso/temas/t4/img04.png', alt='')
       .col-lg-9
         TabsA.color-acento-botones.mb-4 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Aprendizaje basado en proyectos (ABP)")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Aprendizaje Basado en Proyectos (ABP)")
             p Los aprendices desarrollan un proyecto orientado a resolver una necesidad o situación identificada. Los recursos digitales pueden facilitar la consulta de información, la organización del trabajo y la presentación de los productos elaborados.
             p #[b Ejemplo:] un grupo de aprendices diseña una propuesta de aprovechamiento de residuos y utiliza una herramienta colaborativa para organizar las actividades y documentar los resultados.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Aula invertida")

@@ -132,7 +132,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones.mb-2.p-3(
-              texto="Pódcast: Antes de implementar: evaluar para mejorar"
+              texto="Pódcast. Antes de implementar: evaluar para mejorar"
               :audio="require_src('@/assets/curso/temas/t1/podcast.svg')"
           )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -212,7 +212,7 @@
               .col-7
                 figure
                   img(src='@/assets/curso/temas/t1/01.svg', alt='')
-            h4.text-center.text-white Realidad virtual (RV)
+            h4.text-center.text-white Realidad Virtual (RV)
             p.text-white.mb-0 Permite explorar entornos digitales simulados que generan una experiencia de inmersión, generalmente mediante visores especializados. En formación, puede utilizarse para practicar procedimientos, reconocer espacios o experimentar situaciones difíciles de reproducir en el mundo físico.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -230,7 +230,7 @@
               .col-7
                 figure
                   img(src='@/assets/curso/temas/t1/03.svg', alt='')
-            h4.text-center.text-white Realidad mixta (RM)
+            h4.text-center.text-white Realidad Mixta (RM)
             p.text-white.mb-0 Combina elementos físicos y digitales, permitiendo que los objetos virtuales interactúen de manera espacial con el entorno real. Puede apoyar actividades de visualización, manipulación y análisis de modelos complejos.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -238,7 +238,7 @@
             .row.justify-content-center.mb-3
               .col-7
                 figure
-                  img(src='@/assets/curso/temas/t1/03.svg', alt='')
+                  img(src='@/assets/curso/temas/t1/04.svg', alt='')
             h4.text-center.text-white Imágenes y videos de 360°
             p.text-white.mb-0 Permiten explorar visualmente diferentes direcciones de una escena registrada o generada digitalmente. Pueden utilizarse en recorridos educativos y actividades de observación, sin que necesariamente exista interacción con los objetos representados.
       p Para valorar estas herramientas, el instructor debe examinar las posibilidades de interacción, la pertinencia pedagógica de la experiencia y la existencia de alternativas tecnológicas más sencillas para alcanzar el resultado de aprendizaje. En experiencias inmersivas, especialmente cuando se utilizan visores, conviene revisar la comodidad, la duración de las actividades, las opciones de control y las advertencias del fabricante. Asimismo, se deben ofrecer alternativas de participación cuando el uso de estos dispositivos no resulte adecuado para algún aprendiz.

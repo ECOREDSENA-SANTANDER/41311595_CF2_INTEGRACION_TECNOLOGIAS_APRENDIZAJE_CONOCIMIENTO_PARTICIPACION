@@ -47,7 +47,7 @@
               tr
                 th.bg3.text-izq Canal de publicación
                 th.bg3.text-izq Finalidad principal
-                th.bg3.text-izq Aplicación en la formación
+                th.bg3.text-izq Aplicación en formación
             tbody
               tr
                 td.text-izq Plataforma educativa
@@ -62,7 +62,7 @@
                 td.text-izq Facilitar la consulta organizada de colecciones.
                 td.text-izq Acceder a documentos, recursos de apoyo y materiales de referencia.
               tr
-                td.text-izq Sitio web o blog educativo
+                td.text-izq Sitio web o #[em blog] educativo
                 td.text-izq Divulgar contenidos a una audiencia más amplia.
                 td.text-izq Compartir recursos, orientaciones o experiencias formativas.
               tr
@@ -114,6 +114,8 @@
             p Elegir el medio de divulgación más adecuado según el contexto, como plataforma educativa, repositorio institucional, sitio web, correo institucional o comunidad académica.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Preparar el mensaje")
             p Redactar una comunicación breve y clara que indique el propósito del recurso, la forma de acceso, las orientaciones de uso y los beneficios esperados para los usuarios.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Configurar el acceso")
+            p Verificar que los enlaces funcionen, que los permisos de consulta estén correctamente definidos y que los materiales asociados se encuentren completos.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Acompañar la socialización")
             p Resolver inquietudes, recoger observaciones y valorar la respuesta de los usuarios para identificar oportunidades de mejora o actualización del recurso.
 
@@ -126,9 +128,72 @@
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/temas/t4/img03.svg")
           h3.bg2.py-1.w-card-text.text-white Ciclo final del recurso educativo digital
+    
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+      .tarjeta--container.row.mb-4.justify-content-center
+        .col-lg-4.tarjeta.bg01.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-6.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg01.svg', alt='')          
+          h5.text-center Evaluar
+          p.mb-3 Usabilidad, accesibilidad y funcionamiento técnico.
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-9.bg7.p-2.mb-4
+              h5.text-center Usabilidad
+              p.text-center.mb-0 Facilidad de uso y navegación.
+            .col-lg-9.bg7.p-2.mb-4
+              h5.text-center Accesibilidad
+              p.text-center.mb-0 Cumplimiento e inclusión.
+            .col-lg-9.bg7.p-2.mb-4
+              h5.text-center Funcionamiento
+              p.text-center.mb-0 Enlaces, carga y compatibilidad.
+            .col-lg-10.bg8.p-2.mb-4
+              .text-center.text-white.p-1
+                p.mb-0 Resultado: recurso validado.
+        
+        
+        
+        .col-lg-4.tarjeta.bg02.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-6.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg02.svg', alt='')          
+          h5.text-center Almacenar
+          p.mb-3 Catalogación y preservación en repositorios.
+          .row.justify-content-center.align-items-center
+            .col-lg-9.bg11.p-2.mb-4
+              h5.text-center Metadatos
+              p.text-center.mb-0 Título, autor, descripción, palabras clave, licencia.
+            .col-lg-9.bg11.p-2.mb-5
+              h5.text-center Repositorio
+              p.text-center.mb-0 Cargar, verificar políticas y validar acceso.
+         
+            .col-lg-12.bg9.p-2.mb-4
+              .text-center.text-white.p-1
+                p.mb-0 Resultado: recurso organizado y preservado.
+
+        .col-lg-4.tarjeta.bg03.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-6.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg03.svg', alt='')          
+          h5.text-center Divulgar
+          p.mb-3 Enlaces y socialización en redes educativas.
+          .row.justify-content-center.align-items-center
+            .col-lg-9.bg12.p-2.mb-4
+              h5.text-center Enlaces
+              p.text-center.mb-0 Crear, configurar permisos y probar acceso.
+            .col-lg-9.bg12.p-2.mb-5
+              h5.text-center Socialización
+              p.text-center.mb-0 Compartir en plataformas y comunidades educativas.
+         
+            .col-lg-11.bg10.p-2.mb-4
+              .text-center.p-1
+                p.mb-0 Resultado: recurso visible y accesible.
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12
-        img(src="@/assets/curso/temas/t3/img08.svg")
+      .col-lg-6.bg6 
+        p.mb-0.text-white.text-center.p-2 Objetivo: recursos digitales de calidad, preservados y con impacto educativo.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7

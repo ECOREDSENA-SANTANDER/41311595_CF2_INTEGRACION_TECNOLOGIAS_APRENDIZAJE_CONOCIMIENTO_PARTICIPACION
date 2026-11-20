@@ -290,9 +290,97 @@
 
     p De la caracterización del contexto a la evaluación del impacto.
 
-    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
-      .col-lg-12
-        img(src='@/assets/curso/temas/t5/img16.svg', alt='')
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+      .tarjeta--container.row.mb-4.justify-content-center
+        .col-lg-3.tarjeta.bg01.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-7.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg01.svg', alt='')          
+          h5.text-center Caracterizar 
+          h5.mb-4 contexto y población objetivo.
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-10.col-md-8
+              figure
+                img(src='@/assets/curso/temas/t5/bg001.svg', alt='').mb-3  
+            .col-12  
+              p • Analizar el contexto.
+              p • Identificar necesidades y características.
+              p • Reconocer recursos disponibles.
+        
+        .col-lg-3.tarjeta.bg02.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-7.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg02.svg', alt='')
+          h5.text-center Seleccionar
+          h5.mb-4 metodología activa.
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-10.col-md-8
+              figure
+                img(src='@/assets/curso/temas/t5/bg002.svg', alt='').mb-3
+            .col-12
+              p • Revisar metodologías activas.
+              p • Elegir la más adecuada al contexto.
+              p • Justificar la elección.
+
+        .col-lg-3.tarjeta.bg03.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-7.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg03.svg', alt='')
+          h5.text-center Estructurar
+          h5.mb-4 secuencia didáctica.
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-10.col-md-8
+              figure
+                img(src='@/assets/curso/temas/t5/bg003.svg', alt='').mb-3
+            .col-12
+              p • Definir apertura, desarrollo y cierre.
+              p • Diseñar actividades y recursos.
+              p • Alinear objetivos y evaluación.
+
+        .col-lg-3.tarjeta.bg04.p-4.col-md-6
+          .row.justify-content-center.mb-4
+            .col-lg-7.col-md-6.col-6
+              figure
+                img(src='@/assets/curso/temas/t5/bg04.svg', alt='')
+          h5.text-center Definir
+          h5.mb-4 criterios e indicadores.
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-10.col-md-8
+              figure
+                img(src='@/assets/curso/temas/t5/bg004.svg', alt='').mb-3
+            .col-12
+              p • Establecer criterios de calidad.
+              p • Definir indicadores de impacto.
+              p • Seleccionar instrumentos de seguimiento.
+
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-8.bg6 
+        p.mb-0.text-white.text-center.p-2 Resultado: implementación didáctica pertinente, activa y evaluada sistemáticamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
